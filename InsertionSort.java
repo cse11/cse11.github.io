@@ -38,7 +38,7 @@ public class InsertionSort {
     // Move array[position..lastIndex-1] to make room for
     // array[lastIndex] in array[position]
     int tempElement = array[lastIndex];
-    for (int moveIndex = lastIndex -1; moveIndex >= position; moveIndex--) {
+    for (int moveIndex = lastIndex - 1; moveIndex >= position; moveIndex--) {
       array[moveIndex+1] = array[moveIndex];
     }
     // Insert element into proper position
